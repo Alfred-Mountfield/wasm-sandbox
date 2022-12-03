@@ -4,7 +4,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "fix:eslint": "eslint --fix .",
+    "lint:eslint": "eslint .",
+    "lint:tsc": "tsc --noEmit"
   },
   "dependencies": {
     "next": "13.0.6",
@@ -13,7 +16,10 @@
     "demo-package": "0.0.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.45.0",
+    "@typescript-eslint/parser": "5.45.0",
     "@types/react": "18.0.26",
+    "eslint": "8.28.0",
     "typescript": "4.9.3"
   }
 }

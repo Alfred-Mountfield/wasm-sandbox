@@ -18,5 +18,11 @@ wasm-pack.log
 
 node_modules/
 
+dist/
+
 yarn-debug.log*
 yarn-error.log*
+
+tsconfig.tsbuildinfo
+
+.rollup.cache

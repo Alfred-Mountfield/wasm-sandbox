@@ -54,7 +54,7 @@ const PageInner: NextPage = () => {
   );
 };
 
-const Page: NextPage = ({}) => {
+const Page: NextPage = () => {
   return (
     <Suspense fallback={`Loading...`}>
       <DynamicPage />
